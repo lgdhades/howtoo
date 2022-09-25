@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "imageURL": "/images/drivetrain.png",
+    "name": "drivetrain"
+  },
+  {
+    "id": 2,
+    "imageURL": "/images/engine.png",
+    "name": "engine"
+  },
+  {
+    "id": 3,
+    "imageURL": "/images/exterior.png",
+    "name": "exterior"
+  },
+  {
+    "id": 4,
+    "imageURL": "/images/interior.png",
+    "name": "interior"
+  },
+  {
+    "id": 5,
+    "imageURL": "/images/maintenance.png",
+    "name": "maintenance"
+  },
+  {
+    "id": 6,
+    "imageURL": "/images/suspension.png",
+    "name": "suspension"
+  },
+  {
+    "id": 7,
+    "imageURL": "/images/troubleshooting.png",
+    "name": "troubleshooting"
+  },
+  {
+    "id": 8,
+    "imageURL": "/images/upgrades.png",
+    "name": "upgrades"
+  },
+  {
+    "id": 9,
+    "imageURL": "/images/accooling.png",
+    "name": "accooling"
+  },
+  {
+    "id": 10,
+    "imageURL": "/images/airfuel.png",
+    "name": "airfuel"
+  },
+  {
+    "id": 11,
+    "imageURL": "/images/brakesandwheels.png",
+    "name": "brakesandwheels"
+  },
+  {
+    "id": 12,
+    "imageURL": "/images/electrical.png",
+    "name": "electrical"
+  }
+]
