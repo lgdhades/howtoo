@@ -16,6 +16,7 @@ export default function Home() {
       </Head>
       <PageWrapper>
         <CarsSlider />
+        <CateogriesSliderTitle>SELECT A CATEGORY</CateogriesSliderTitle>
         <CateogriesSlider />
         <PostsWrapper>
           {posts.map(post => (
@@ -38,14 +39,24 @@ export default function Home() {
 
 /*---> Styles <---*/
 const PageWrapper = styled.div`
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   /* padding: 50px 300px; */
 `
 
 const PostsWrapper = styled.div`
-  border: 1px solid green;
+  /* border: 1px solid green; */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   padding: 0px 300px;
+`
+
+const CateogriesSliderTitle = styled.div`
+  /* border: 1px solid green; */
+  padding: 25px 0px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 91.5%;
+  color: #444444;
 `
