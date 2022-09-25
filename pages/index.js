@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { Post } from '../components/Post/Post'
 import posts from '../data/posts.json'
 import { CarsSlider } from '../components/CarsSlider/CarsSlider'
+import { CateogriesSlider } from '../components/CategoriesSlider/CateogriesSlider'
 
 /*---> Component <---*/
 export default function Home() {
@@ -14,7 +15,8 @@ export default function Home() {
         <link rel="icon" href="/HowTooIcon.ico" />
       </Head>
       <PageWrapper>
-        <CarsSlider></CarsSlider>
+        <CarsSlider />
+        <CateogriesSlider />
         <PostsWrapper>
           {posts.map(post => (
             <Post
