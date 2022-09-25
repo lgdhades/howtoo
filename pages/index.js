@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styled from 'styled-components'
 import { Post } from '../components/Post/Post'
 import posts from '../data/posts.json'
+import { CarsSlider } from '../components/CarsSlider/CarsSlider'
 
 /*---> Component <---*/
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
         <link rel="icon" href="/HowTooIcon.ico" />
       </Head>
       <PageWrapper>
+        <CarsSlider></CarsSlider>
         <PostsWrapper>
           {posts.map(post => (
             <Post
@@ -34,13 +36,14 @@ export default function Home() {
 
 /*---> Styles <---*/
 const PageWrapper = styled.div`
-  /* border: 1px solid yellow; */
-  padding: 50px 300px;
+  border: 1px solid yellow;
+  /* padding: 50px 300px; */
 `
 
 const PostsWrapper = styled.div`
-  /* border: 1px solid green; */
+  border: 1px solid green;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding: 0px 300px;
 `
