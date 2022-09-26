@@ -48,47 +48,56 @@ export const SingleSelectDropdown = ({
   }
 
   return (
-    <FieldWrapper>
-      <SelectField
-        onClick={handleSelectClick}
-        onKeyPress={handleSelectClick}
-        role='menuitem'
-        tabIndex={0}
-        isSelectActive={isSelectActive}
-      >
-        <PlaceHolder>{placeHolder}</PlaceHolder>
-        {isSelectActive ? <ArrowUp /> : <ArrowDown />}
-      </SelectField>
-      {isSelectActive ? (
-        <SelectMenu>
-          <SearchBoxWrapper>
-            <SearchBox
-              placeholder='Search here ...'
-              onChange={(event) => handleSearch(event)}
-              autoFocus
-            />
-          </SearchBoxWrapper>
-          {allOptions.map((item, index) => (
-            <Option
-              key={index}
-              onClick={() => handleOptionClick(item)}
-              onKeyPress={() => handleOptionClick(item)}
-              role='option'
-              tabIndex={0}
-              aria-selected={false}
-              activeOption={activeOption === item.info}
-            >
-              {item.info}
-              {activeOption === item.info ? <CheckIcon /> : null}
-            </Option>
-          ))}
-        </SelectMenu>
-      ) : null}
-    </FieldWrapper>
+    <MainWrapper>
+      <FieldWrapper>
+        <SelectField
+          onClick={handleSelectClick}
+          onKeyPress={handleSelectClick}
+          role='menuitem'
+          tabIndex={0}
+          isSelectActive={isSelectActive}
+        >
+          <PlaceHolder>{placeHolder}</PlaceHolder>
+          {isSelectActive ? <ArrowUp /> : <ArrowDown />}
+        </SelectField>
+        {isSelectActive ? (
+          <SelectMenu>
+            <SearchBoxWrapper>
+              <SearchBox
+                placeholder='Search here ...'
+                onChange={(event) => handleSearch(event)}
+                autoFocus
+              />
+            </SearchBoxWrapper>
+            {allOptions.map((item, index) => (
+              <Option
+                key={index}
+                onClick={() => handleOptionClick(item)}
+                onKeyPress={() => handleOptionClick(item)}
+                role='option'
+                tabIndex={0}
+                aria-selected={false}
+                activeOption={activeOption === item.info}
+              >
+                {item.info}
+                {activeOption === item.info ? <CheckIcon /> : null}
+              </Option>
+            ))}
+          </SelectMenu>
+        ) : null}
+      </FieldWrapper>
+    </MainWrapper>
   )
 }
 
 /*---> Styles <---*/
+const MainWrapper = styled.div`
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: center;
+  max-height: 40px;
+`
+
 const FieldWrapper = styled.div`
   /* border: 1px solid green; */
   width: 320px;

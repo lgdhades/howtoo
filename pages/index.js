@@ -22,15 +22,12 @@ export default function Home() {
       </Head>
       <PageWrapper>
         <CarsSlider searchValue={searchValue} setSearchValue={setSearchValue} />
-        <div style={{ display: 'flex', justifyContent: 'center', maxHeight: '40px' }}>
-          <SingleSelectDropdown
-            placeholder={'Quick Search'}
-            options={cars}
-            searchValue={searchValue}
-            setSearchValue={setSearchValue}
-          />
-        </div>
-
+        <SingleSelectDropdown
+          placeholder={'Quick Search'}
+          options={cars}
+          searchValue={searchValue}
+          setSearchValue={setSearchValue}
+        />
         <CateogriesSliderTitle>SELECT A CATEGORY</CateogriesSliderTitle>
         <CateogriesSlider />
         <MainContentWrapper>
