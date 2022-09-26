@@ -8,6 +8,7 @@ import { CateogriesSlider } from '../components/CategoriesSlider/CateogriesSlide
 import { SingleSelectDropdown } from '../components/SingleSelectDropDown/SingleSelectDropdown'
 import cars from '../data/cars.json'
 import { Sidebar } from '../components/Sidebar/Sidebar'
+import { Navbar } from '../components/Navbar/Navbar'
 
 /*---> Component <---*/
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
         <link rel="icon" href="/HowTooIcon.ico" />
       </Head>
       <PageWrapper>
+        <Navbar />
         <CarsSlider searchValue={searchValue} setSearchValue={setSearchValue} />
         <SingleSelectDropdown
           placeholder={'Quick Search'}
