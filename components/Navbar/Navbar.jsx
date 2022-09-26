@@ -23,8 +23,8 @@ export const Navbar = () => {
             {link}
           </Link>
         ))}
-        <Bell />
-        <Number>4</Number>
+        <BellIcon />
+        <NotificationsNumber>4</NotificationsNumber>
         <Avatar src='/images/avatar2.png' alt='avatar' />
       </LinksWrapper>
     </NavbarWrapper>
@@ -70,7 +70,12 @@ const Link = styled.div`
   }
 `
 
-const Number = styled.div`
+const BellIcon = styled(Bell)`
+  /* border: 1px solid red; */
+  cursor: pointer;
+`
+
+const NotificationsNumber = styled.div`
   border: 1px solid red;
   border-radius: 50%;
   background: #ff0000;
