@@ -7,6 +7,7 @@ import { CarsSlider } from '../components/CarsSlider/CarsSlider'
 import { CateogriesSlider } from '../components/CategoriesSlider/CateogriesSlider'
 import { SingleSelectDropdown } from '../components/SingleSelectDropDown/SingleSelectDropdown'
 import cars from '../data/cars.json'
+import { Sidebar } from '../components/Sidebar/Sidebar'
 
 /*---> Component <---*/
 export default function Home() {
@@ -32,20 +33,23 @@ export default function Home() {
 
         <CateogriesSliderTitle>SELECT A CATEGORY</CateogriesSliderTitle>
         <CateogriesSlider />
-        <PostsWrapper>
-          {posts.map(post => (
-            <Post
-              key={post.id}
-              imageURL={post.imageURL}
-              title={post.title}
-              avatarURL={post.avatarURL}
-              author={post.author}
-              views={post.views}
-              date={post.date}
-              percentage={post.percentage}
-            />
-          ))}
-        </PostsWrapper>
+        <MainContentWrapper>
+          <Sidebar />
+          <PostsWrapper>
+            {posts.map(post => (
+              <Post
+                key={post.id}
+                imageURL={post.imageURL}
+                title={post.title}
+                avatarURL={post.avatarURL}
+                author={post.author}
+                views={post.views}
+                date={post.date}
+                percentage={post.percentage}
+              />
+            ))}
+          </PostsWrapper>
+        </MainContentWrapper>
       </PageWrapper>
     </>
   )
@@ -53,8 +57,31 @@ export default function Home() {
 
 /*---> Styles <---*/
 const PageWrapper = styled.div`
-  /* border: 1px solid yellow; */
+  /* border: 1px solid red; */
   /* padding: 50px 300px; */
+`
+
+const MainContentWrapper = styled.div`
+  /* border: 1px solid red; */
+  display: flex;
+  padding: 0px 200px;
+
+  @media (max-width: 1640px) {
+    padding: 0px 100px;
+  }
+
+  @media (max-width: 1450px) {
+    padding: 0px 50px;
+  }
+
+   @media (max-width: 1350px) {
+    padding: 0px 20px;
+  }
+
+  @media (max-width: 1285px) {
+    padding: 0px 10px;
+  }
+
 `
 
 const PostsWrapper = styled.div`
@@ -62,7 +89,8 @@ const PostsWrapper = styled.div`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 0px 300px;
+  max-height: 825px
+
 `
 
 const CateogriesSliderTitle = styled.div`
