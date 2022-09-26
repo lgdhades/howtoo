@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "imageURL": "/images/post1.png",
+    "minutes": "12:09",
+    "title": "How to replace the old intake with a K&N filter",
+    "author": "Justin’s Fixes",
+    "avatarURL": "/images/avatar1.png",
+    "views": "50K",
+    "date": "08/2022",
+    "percentage": "98%"
+  },
+  {
+    "id": 2,
+    "imageURL": "/images/post2.png",
+    "minutes": "08:19",
+    "title": "How to install Apex fighter front grille with ground effects",
+    "author": "Pirtle’s Customs Garage",
+    "avatarURL": "/images/avatar2.png",
+    "views": "125K",
+    "date": "07/2022",
+    "percentage": "99%"
+  },
+  {
+    "id": 3,
+    "imageURL": "/images/post3.png",
+    "minutes": "08:19",
+    "title": "How to install Fuel Attack 20” wheels",
+    "author": "Jon’s Garage",
+    "avatarURL": "/images/avatar3.png",
+    "views": "50K",
+    "date": "08/2022",
+    "percentage": "98%"
+  },
+  {
+    "id": 4,
+    "imageURL": "/images/post4.png",
+    "minutes": "08:19",
+    "title": "How to replace the old intake with a K&N filter",
+    "author": "Kramer Burns",
+    "avatarURL": "/images/avatar4.png",
+    "views": "50K",
+    "date": "08/2022",
+    "percentage": "98%"
+  },
+  {
+    "id": 5,
+    "imageURL": "/images/post5.png",
+    "minutes": "08:19",
+    "title": "How to install Apex fighter front grille with ground effects",
+    "author": "Roosters Garage",
+    "avatarURL": "/images/avatar5.png",
+    "views": "125K",
+    "date": "07/2022",
+    "percentage": "99%"
+  },
+  {
+    "id": 6,
+    "imageURL": "/images/post6.png",
+    "minutes": "08:19",
+    "title": "How to install Fuel Attack 20” wheels",
+    "author": "Real Crafty Man",
+    "avatarURL": "/images/avatar6.png",
+    "views": "50K",
+    "date": "08/2022",
+    "percentage": "98%"
+  },
+  {
+    "id": 7,
+    "imageURL": "/images/post7.png",
+    "minutes": "08:19",
+    "title": "How to replace the old intake with a K&N filter",
+    "author": "Cercies Garage",
+    "avatarURL": "/images/avatar7.png",
+    "views": "50K",
+    "date": "08/2022",
+    "percentage": "98%"
+  },
+  {
+    "id": 8,
+    "imageURL": "/images/post8.png",
+    "minutes": "08:19",
+    "title": "How to install Apex fighter front grille with ground effects",
+    "author": "Davynator’s Garage",
+    "avatarURL": "/images/avatar8.png",
+    "views": "125K",
+    "date": "07/2022",
+    "percentage": "99%"
+  },
+  {
+    "id": 9,
+    "imageURL": "/images/post9.png",
+    "minutes": "08:19",
+    "title": "How to install Fuel Attack 20” wheels",
+    "author": "Jason’s Fixes",
+    "avatarURL": "/images/avatar9.png",
+    "views": "50K",
+    "date": "08/2022",
+    "percentage": "98%"
+  }
+]
