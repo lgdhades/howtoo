@@ -9,6 +9,7 @@ import { SingleSelectDropdown } from '../components/SingleSelectDropDown/SingleS
 import cars from '../data/cars.json'
 import { Sidebar } from '../components/Sidebar/Sidebar'
 import { Navbar } from '../components/Navbar/Navbar'
+import { Footer } from '../components/Footer/Footer'
 
 /*---> Component <---*/
 export default function Home() {
@@ -49,6 +50,7 @@ export default function Home() {
             ))}
           </PostsWrapper>
         </MainContentWrapper>
+        <Footer />
       </PageWrapper>
     </>
   )
@@ -57,13 +59,13 @@ export default function Home() {
 /*---> Styles <---*/
 const PageWrapper = styled.div`
   /* border: 1px solid red; */
-  /* padding: 50px 300px; */
 `
 
 const MainContentWrapper = styled.div`
-  /* border: 1px solid red; */
+  /* border: 1px solid green; */
   display: flex;
   padding: 0px 200px;
+  overflow: auto;
 
   @media (max-width: 1640px) {
     padding: 0px 100px;
