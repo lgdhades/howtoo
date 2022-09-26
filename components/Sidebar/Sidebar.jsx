@@ -103,13 +103,11 @@ export const Sidebar = () => {
 
 /*---> Styles <---*/
 const SidebarWrapper = styled.div`
-  /* border: 1px solid yellow; */
   min-width: 280px;
   padding: 20px 0px;
 `
 
 const SearchBoxWrapper = styled.div`
-  /* border: 1px solid yellow; */
   margin-bottom: 10px;
   display: flex;
   align-items: center;
@@ -118,7 +116,6 @@ const SearchBoxWrapper = styled.div`
 `
 
 const SearchBox = styled.input`
-  /* border: 1px solid blue; */
   width: 100%;
   height: 40px;
   background: white;
@@ -133,12 +130,10 @@ const SearchBox = styled.input`
 `
 
 const SideCategories = styled.div`
-  /* border: 1px solid black; */
   padding: 0px 20px;
 `
 
 const CategoryWrapper = styled.div`
-  /* border: 1px solid red; */
   display: flex;
   align-items: center;
   margin-bottom: 5px;
@@ -175,11 +170,9 @@ const ArrowDown = styled(ChevronDown)`
 `
 
 const SubCategoriesWrapper = styled.div`
-  /* border: 1px solid red; */
   padding-left: 22px;
 `
 const SubCategoryWrapper = styled.div`
-  /* border: 1px solid red; */
   display: flex;
   align-items: center;
 `

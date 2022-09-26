@@ -63,7 +63,6 @@ export const CarsSlider = ({ searchValue, setSearchValue }) => {
 
 /*---> Styles <---*/
 const SliderWrapper = styled.div`
-  /* border: 1px solid yellow; */
   height: 200px;
   display: flex;
   justify-content: center;
@@ -71,14 +70,12 @@ const SliderWrapper = styled.div`
 `
 
 const CarWrapper = styled.div`
-  /* border: 1px solid black; */
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
 `
 
 const BigImage = styled.img`
-  /* border: 1px solid red; */
   width: 400px;
   height: 140px;
   object-fit: cover;
@@ -86,7 +83,6 @@ const BigImage = styled.img`
 `
 
 const SmallImage = styled.img`
-  /* border: 1px solid red; */
   width: 200px;
   height: 140px;
   object-fit: cover;
@@ -94,7 +90,6 @@ const SmallImage = styled.img`
 `
 
 const CarInfo = styled.div`
-  /* border: 1px solid red; */
   text-align: center;
   font-weight: 600;
   font-size: 16px;
@@ -102,13 +97,11 @@ const CarInfo = styled.div`
 `
 
 const RightArrow = styled(ChevronRight)`
-  /* border: 1px solid red; */
   color: #ff0000;
   cursor: pointer;
 `
 
 const LeftArrow = styled(ChevronLeft)`
-  /* border: 1px solid red; */
   color: #ff0000;
   cursor: pointer;
 `

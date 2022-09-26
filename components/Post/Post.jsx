@@ -36,21 +36,19 @@ export const Post = ({
 
 /*---> Styles <---*/
 const PostWrapper = styled.div`
-  /* border: 1px solid yellow; */
   width: 300px;
   height: 240px;
   margin: 17px 11px;
 `
 
 const PostImage = styled.div`
-  /* border: 1px solid red; */
   background: url(${(props) => props.imageURL});
   background-position: center;
   height: 150px;
+  cursor: pointer;
 `
 
 const PostTitle = styled.div`
-  /* border: 1px solid black; */
   font-weight: 700;
   font-size: 14px;
   line-height: 18px;
@@ -59,7 +57,6 @@ const PostTitle = styled.div`
 `
 
 const PostFooter = styled.div`
-  /* border: 1px solid yellow; */
   height: 50px;
   margin-top: 5px;
   display: flex;
@@ -67,18 +64,15 @@ const PostFooter = styled.div`
 `
 
 const RightFooter = styled.div`
-  /* border: 1px solid black; */
   display: flex;
   align-items: center;
 `
 
 const LeftFooter = styled.div`
-  /* border: 1px solid black; */
   display: flex;
 `
 
 const Avatar = styled.div`
-  /* border: 1px solid red; */
   background: url(${(props) => props.avatarURL});
   background-position: center;
   background-repeat: no-repeat;
@@ -87,20 +81,17 @@ const Avatar = styled.div`
   margin-right: 10px;
 `
 
-const PostInfo = styled.div`
-  /* border: 1px solid red; */
-`
+const PostInfo = styled.div``
 
 const Author = styled.div`
-  /* border: 1px solid green; */
   font-weight: 700;
   font-size: 14px;
   line-height: 18px;
   color: #444444;
+  cursor: pointer;
 `
 
 const Views = styled.div`
-  /* border: 1px solid green; */
   font-weight: 300;
   font-size: 12px;
   line-height: 18px;
@@ -108,7 +99,6 @@ const Views = styled.div`
 `
 
 const Percentage = styled.div`
-  /* border: 1px solid green; */
   font-weight: 600;
   font-size: 20px;
   line-height: 18px;

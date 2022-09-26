@@ -23,7 +23,6 @@ export const Footer = () => {
 
 /*---> Styles <---*/
 const FooterWrapper = styled.div`
-  /* border: 1px solid yellow; */
   height: 70px;
   background: #000000;
   padding: 20px;
@@ -35,12 +34,10 @@ const FooterWrapper = styled.div`
 `
 
 const FooterLinks = styled.div`
-  /* border: 1px solid red; */
   display: flex;
 `
 
 const Link = styled.div`
-  /* border: 1px solid black; */
   color: white;
   margin-right: 40px;
   font-weight: 700;
@@ -54,7 +51,6 @@ const SocialIcons = styled.div`
 `
 
 const FacebookIcon = styled(Facebook)`
-  /* border: 1px solid red; */
   color: white;
   cursor: pointer;
   width: 35px;
@@ -63,7 +59,6 @@ const FacebookIcon = styled(Facebook)`
 `
 
 const TwitterIcon = styled(Twitter)`
-  /* border: 1px solid red; */
   color: white;
   cursor: pointer;
   width: 35px;
@@ -72,7 +67,6 @@ const TwitterIcon = styled(Twitter)`
 `
 
 const InstagramIcon = styled(Instagram)`
-  /* border: 1px solid red; */
   color: white;
   cursor: pointer;
   width: 35px;

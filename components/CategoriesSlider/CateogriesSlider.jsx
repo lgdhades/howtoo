@@ -48,7 +48,6 @@ export const CateogriesSlider = () => {
 
 /*---> Styles <---*/
 const SliderWrapper = styled.div`
-  /* border: 1px solid yellow; */
   height: 200px;
   display: flex;
   justify-content: center;
@@ -57,7 +56,6 @@ const SliderWrapper = styled.div`
 `
 
 const CategoryWrapper = styled.div`
-  /* border: 1px solid red; */
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
@@ -65,7 +63,6 @@ const CategoryWrapper = styled.div`
 `
 
 const BigImage = styled.div`
-  /* border: 1px solid yellow; */
   width: 295px;
   height: 145px;
   background: url(${(props) => props.imageURL});
@@ -77,7 +74,6 @@ const BigImage = styled.div`
 `
 
 const MediumImage = styled.div`
-  /* border: 1px solid yellow; */
   width: 240px;
   height: 115px;
   background-position: center;
@@ -109,7 +105,6 @@ const RightArrow = styled(ChevronRight)`
 `
 
 const LeftArrow = styled(ChevronLeft)`
-  /* border: 1px solid red; */
   color: #ff0000;
   cursor: pointer;
 `

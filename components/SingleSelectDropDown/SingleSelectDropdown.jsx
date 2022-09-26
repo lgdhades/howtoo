@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
-import { ChevronDown, ChevronUp, Check } from 'lucide-react'
 import styled from 'styled-components'
+import { ChevronDown, ChevronUp, Check } from 'lucide-react'
 
 /*---> Component <---*/
 export const SingleSelectDropdown = ({
@@ -92,14 +92,12 @@ export const SingleSelectDropdown = ({
 
 /*---> Styles <---*/
 const MainWrapper = styled.div`
-  /* border: 1px solid green; */
   display: flex;
   justify-content: center;
   max-height: 40px;
 `
 
 const FieldWrapper = styled.div`
-  /* border: 1px solid green; */
   width: 320px;
   display: flex;
   flex-direction: column;
@@ -118,7 +116,6 @@ const PlaceHolder = styled.span`
 `
 
 const SelectMenu = styled.div`
-  /* border: 1px solid green; */
   background: white;
   border-radius: 8px;
   padding: 14px 0px;
@@ -170,7 +167,6 @@ const Option = styled.div`
 `
 
 const SelectField = styled.div`
-  /* border: 1px solid green; */
   height: 40px;
   background: white;
   border: 1px solid #ff0000;

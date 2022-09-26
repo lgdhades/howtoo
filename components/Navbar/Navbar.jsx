@@ -33,7 +33,6 @@ export const Navbar = () => {
 
 /*---> Styles <---*/
 const NavbarWrapper = styled.div`
-  /* border: 1px solid yellow; */
   height: 70px;
   display: flex;
   align-items: center;
@@ -41,24 +40,20 @@ const NavbarWrapper = styled.div`
   padding: 20px;
 `
 
-const LogoWrapper = styled.div`
-  /* border: 1px solid red; */
-`
+const LogoWrapper = styled.div``
+
 const Logo = styled.img`
-  /* border: 1px solid red; */
   width: 140px;
   object-fit: cover;
   object-position: center;
 `
 
 const LinksWrapper = styled.div`
-  /* border: 1px solid red; */
   display: flex;
   align-items: center;
 `
 
 const Link = styled.div`
-  /* border: 1px solid black; */
   margin-right: 10px;
   padding: 5px 0px;
   border-bottom: ${(props) =>
@@ -71,7 +66,6 @@ const Link = styled.div`
 `
 
 const BellIcon = styled(Bell)`
-  /* border: 1px solid red; */
   cursor: pointer;
 `
 

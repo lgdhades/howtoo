@@ -1,12 +1,12 @@
 import Head from 'next/head'
 import { useState } from 'react'
 import styled from 'styled-components'
-import { Post } from '../components/Post/Post'
 import posts from '../data/posts.json'
+import cars from '../data/cars.json'
+import { Post } from '../components/Post/Post'
 import { CarsSlider } from '../components/CarsSlider/CarsSlider'
 import { CateogriesSlider } from '../components/CategoriesSlider/CateogriesSlider'
 import { SingleSelectDropdown } from '../components/SingleSelectDropDown/SingleSelectDropdown'
-import cars from '../data/cars.json'
 import { Sidebar } from '../components/Sidebar/Sidebar'
 import { Navbar } from '../components/Navbar/Navbar'
 import { Footer } from '../components/Footer/Footer'
@@ -57,12 +57,9 @@ export default function Home() {
 }
 
 /*---> Styles <---*/
-const PageWrapper = styled.div`
-  /* border: 1px solid red; */
-`
+const PageWrapper = styled.div``
 
 const MainContentWrapper = styled.div`
-  /* border: 1px solid green; */
   display: flex;
   padding: 0px 200px;
   overflow: auto;
@@ -86,16 +83,13 @@ const MainContentWrapper = styled.div`
 `
 
 const PostsWrapper = styled.div`
-  /* border: 1px solid green; */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  max-height: 825px
-
+  max-height: 825px;
 `
 
 const CateogriesSliderTitle = styled.div`
-  /* border: 1px solid green; */
   padding: 25px 0px;
   text-align: center;
   font-weight: 400;
