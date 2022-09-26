@@ -48,7 +48,7 @@ export const CateogriesSlider = () => {
 
 /*---> Styles <---*/
 const SliderWrapper = styled.div`
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   height: 200px;
   display: flex;
   justify-content: center;
