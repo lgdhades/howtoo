@@ -1,11 +1,23 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import { ChevronRight, ChevronLeft } from 'lucide-react'
 import cars from '../../data/cars.json'
 
 /*---> Component <---*/
-export const CarsSlider = () => {
+export const CarsSlider = ({ searchValue, setSearchValue }) => {
   const [activeCar, setActiveCar] = useState(3)
+
+  useEffect(() => {
+    const updateActiveCar = () => {
+      if (searchValue) {
+        const searchValueIndex = cars.findIndex(
+          (car) => car.info === searchValue
+        )
+        setActiveCar(searchValueIndex)
+      }
+    }
+    updateActiveCar()
+  }, [searchValue])
 
   return (
     <SliderWrapper>
@@ -17,7 +29,10 @@ export const CarsSlider = () => {
                 {activeCar > 0 && (
                   <LeftArrow
                     size={48}
-                    onClick={() => setActiveCar(activeCar - 1)}
+                    onClick={() => {
+                      setActiveCar(activeCar - 1)
+                      setSearchValue('')
+                    }}
                   />
                 )}
                 <div>
@@ -27,7 +42,10 @@ export const CarsSlider = () => {
                 {activeCar !== cars.length - 1 && (
                   <RightArrow
                     size={48}
-                    onClick={() => setActiveCar(activeCar + 1)}
+                    onClick={() => {
+                      setActiveCar(activeCar + 1)
+                      setSearchValue('')
+                    }}
                   />
                 )}
               </div>
@@ -45,7 +63,7 @@ export const CarsSlider = () => {
 
 /*---> Styles <---*/
 const SliderWrapper = styled.div`
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   height: 200px;
   display: flex;
   justify-content: center;
