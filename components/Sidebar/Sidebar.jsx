@@ -73,7 +73,7 @@ export const Sidebar = () => {
             {expandedCategories.includes(category.name) && (
               <SubCategoriesWrapper>
                 {category.submenu.map((subCategory, index) => (
-                  <SubCategoryWrapper>
+                  <SubCategoryWrapper key={index}>
                     <Checkbox
                       onClick={() =>
                         checkedCategories.includes(subCategory)
