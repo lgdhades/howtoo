@@ -1,12 +1,17 @@
 import Head from 'next/head'
+import { useState } from 'react'
 import styled from 'styled-components'
 import { Post } from '../components/Post/Post'
 import posts from '../data/posts.json'
 import { CarsSlider } from '../components/CarsSlider/CarsSlider'
 import { CateogriesSlider } from '../components/CategoriesSlider/CateogriesSlider'
+import { SingleSelectDropdown } from '../components/SingleSelectDropDown/SingleSelectDropdown'
+import cars from '../data/cars.json'
 
 /*---> Component <---*/
 export default function Home() {
+  const [searchValue, setSearchValue] = useState('')
+
   return (
     <>
       <Head>
@@ -15,7 +20,16 @@ export default function Home() {
         <link rel="icon" href="/HowTooIcon.ico" />
       </Head>
       <PageWrapper>
-        <CarsSlider />
+        <CarsSlider searchValue={searchValue} setSearchValue={setSearchValue} />
+        <div style={{ display: 'flex', justifyContent: 'center', maxHeight: '40px' }}>
+          <SingleSelectDropdown
+            placeholder={'Quick Search'}
+            options={cars}
+            searchValue={searchValue}
+            setSearchValue={setSearchValue}
+          />
+        </div>
+
         <CateogriesSliderTitle>SELECT A CATEGORY</CateogriesSliderTitle>
         <CateogriesSlider />
         <PostsWrapper>
