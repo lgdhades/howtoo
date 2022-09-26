@@ -2,27 +2,27 @@
   {
     "id": 1,
     "name": "Alternator & Battery",
-    "submenu": ["Alternator", "Voltage Regulator", "Battery", "Other"]
+    "submenu": ["Alternator", "Voltage Regulator", "Battery", "Voltage Tool"]
   },
   {
     "id": 2,
     "name": "Anti-Theft/Remote Start",
-    "submenu": ["Alternator", "Voltage Regulator", "Battery", "Other"]
+    "submenu": ["Anti-Theft/Remote Start 1", "Anti-Theft/Remote Start 2", "Anti-Theft/Remote Start 3", "Anti-Theft/Remote Start 4"]
   },
   {
     "id": 3,
     "name": "Audio/Video/Speakers",
-    "submenu": ["Alternator", "Voltage Regulator", "Battery", "Other"]
+    "submenu": ["Audio/Video/Speakers 1", "Audio/Video/Speakers 2", "Audio/Video/Speakers 3", "Audio/Video/Speakers 4"]
   },
   {
     "id": 4,
     "name": "Cables/Harnesses",
-    "submenu": ["Alternator", "Voltage Regulator", "Battery", "Other"]
+    "submenu": ["Cables/Harnesses 1", "Cables/Harnesses 2", "Cables/Harnesses 3", "Cables/Harnesses 4"]
   },
   {
     "id": 5,
     "name": "ECU/PCM",
-    "submenu": ["Alternator", "Voltage Regulator", "Battery", "Other"]
+    "submenu": ["ECU/PCM 1", "ECU/PCM 2", "ECU/PCM 3", "ECU/PCM 4"]
   },
   {
     "id": 6,
@@ -39,43 +39,42 @@
       "ABS Motor",
       "Parking Brake Motor",
       "Power Steering Assist Motor",
-      "A/C Heater Blower",
-      "Other"
+      "A/C Heater Blower"
     ]
   },
   {
     "id": 7,
     "name": "Ignition/Starter System",
-    "submenu": ["Alternator", "Voltage Regulator", "Battery", "Other"]
+    "submenu": ["Ignition/Starter System 1", "Ignition/Starter System 2", "Ignition/Starter System 3", "Ignition/Starter System 4"]
   },
   {
     "id": 8,
     "name": "Light Assemblies",
-    "submenu": ["Alternator", "Voltage Regulator", "Battery", "Other"]
+    "submenu": ["Light Assemblies 1", "Light Assemblies 2", "Light Assemblies 3", "Light Assemblies"]
   },
   {
     "id": 9,
     "name": "Lights/Bulbs",
-    "submenu": ["Alternator", "Voltage Regulator", "Battery", "Other"]
+    "submenu": ["Lights/Bulbs 1", "Lights/Bulbs 2", "Lights/Bulbs 3", "Lights/Bulbs 4"]
   },
   {
     "id": 10,
     "name": "Relays/Fuses",
-    "submenu": ["Alternator", "Voltage Regulator", "Battery", "Other"]
+    "submenu": ["Relays/Fuses 1", "Relays/Fuses 2", "Relays/Fuses 3", "Relays/Fuses 4"]
   },
   {
     "id": 11,
     "name": "Switches",
-    "submenu": ["Alternator", "Voltage Regulator", "Battery", "Other"]
+    "submenu": ["Switches 1", "Switches 2", "Switches 3", "Switches 4"]
   },
   {
     "id": 12,
     "name": "Technology Systems",
-    "submenu": ["Alternator", "Voltage Regulator", "Battery", "Other"]
+    "submenu": ["Technology Systems 1", "Technology Systems 2", "Technology Systems 3", "Technology Systems 4"]
   },
   {
     "id": 13,
     "name": "Other",
-    "submenu": ["Alternator", "Voltage Regulator", "Battery", "Other"]
+    "submenu": ["Other 1", "Other 2", "Other 3", "Other 4"]
   }
 ]
