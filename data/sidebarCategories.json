@@ -1,0 +1,81 @@
+[
+  {
+    "id": 1,
+    "name": "Alternator & Battery",
+    "submenu": ["Alternator", "Voltage Regulator", "Battery", "Other"]
+  },
+  {
+    "id": 2,
+    "name": "Anti-Theft/Remote Start",
+    "submenu": ["Alternator", "Voltage Regulator", "Battery", "Other"]
+  },
+  {
+    "id": 3,
+    "name": "Audio/Video/Speakers",
+    "submenu": ["Alternator", "Voltage Regulator", "Battery", "Other"]
+  },
+  {
+    "id": 4,
+    "name": "Cables/Harnesses",
+    "submenu": ["Alternator", "Voltage Regulator", "Battery", "Other"]
+  },
+  {
+    "id": 5,
+    "name": "ECU/PCM",
+    "submenu": ["Alternator", "Voltage Regulator", "Battery", "Other"]
+  },
+  {
+    "id": 6,
+    "name": "Electric Motors",
+    "submenu": [
+      "Convertable Motors",
+      "Window Motor - Front",
+      "Window Motor - Rear",
+      "Window Motor - Sliding",
+      "Head Light Motors",
+      "Sunroof Motors",
+      "Trunk Release Motor",
+      "Windsheild Wiper Motor",
+      "ABS Motor",
+      "Parking Brake Motor",
+      "Power Steering Assist Motor",
+      "A/C Heater Blower",
+      "Other"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Ignition/Starter System",
+    "submenu": ["Alternator", "Voltage Regulator", "Battery", "Other"]
+  },
+  {
+    "id": 8,
+    "name": "Light Assemblies",
+    "submenu": ["Alternator", "Voltage Regulator", "Battery", "Other"]
+  },
+  {
+    "id": 9,
+    "name": "Lights/Bulbs",
+    "submenu": ["Alternator", "Voltage Regulator", "Battery", "Other"]
+  },
+  {
+    "id": 10,
+    "name": "Relays/Fuses",
+    "submenu": ["Alternator", "Voltage Regulator", "Battery", "Other"]
+  },
+  {
+    "id": 11,
+    "name": "Switches",
+    "submenu": ["Alternator", "Voltage Regulator", "Battery", "Other"]
+  },
+  {
+    "id": 12,
+    "name": "Technology Systems",
+    "submenu": ["Alternator", "Voltage Regulator", "Battery", "Other"]
+  },
+  {
+    "id": 13,
+    "name": "Other",
+    "submenu": ["Alternator", "Voltage Regulator", "Battery", "Other"]
+  }
+]
